@@ -85,4 +85,40 @@ const keyword = hex => {
 const toObj = (a, color) => {
   const key = a[color.key] ? color.key + '2' : color.key
   a[key] = color.value
-  ret
+  return a
+}
+
+const palx = (hex, options = {}) => {
+  const color = chroma(hex)
+  const colors = []
+  const [ hue, sat, lte ] = color.hsl()
+
+  const hues = createHues(12)(hue)
+
+  colors.push({
+    key: 'black',
+    value: createBlack('' + color.hex())
+  })
+
+  colors.push({
+    key: 'gray',
+    value: createShades(desat(1/8)('' + color.hex()))
+  })
+
+  hues.forEach(h => {
+    const c = chroma.hsl(h, sat, lte)
+    const key = keyword(c)
+    colors.push({
+      key,
+      value: createShades('' + c.hex())
+    })
+  })
+
+  const obj = Object.assign({
+    base: hex,
+  }, colors.reduce(toObj, {}))
+
+  return obj
+}
+
+module.exports = palx
