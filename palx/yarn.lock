@@ -1299,4 +1299,46 @@ cli-cursor@^3.1.0:
 
 cli-spinners@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.2.0.tgz#e8b988d92
+  resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.2.0.tgz#e8b988d9206c692302d8ee834e7a85c0144d8f77"
+  integrity sha512-tgU3fKwzYjiLEQgPMD9Jt+JjHVL9kW93FiIMX/l7rivvOD4/LL0Mf7gda3+4U2KJBloybwgj5KEoQgGRioMiKQ==
+
+cli-truncate@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cli-truncate/-/cli-truncate-2.0.0.tgz#68ff6aaa53b203b52ad89b8b1a80f1f61ad1e1d5"
+  integrity sha512-C4hp+8GCIFVsUUiXcw+ce+7wexVWImw8rQrgMBFsqerx9LvvcGlwm6sMjQYAEmV/Xb87xc1b5Ttx505MSpZVqg==
+  dependencies:
+    slice-ansi "^2.1.0"
+    string-width "^4.1.0"
+
+cliui@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
+  integrity sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==
+  dependencies:
+    string-width "^3.1.0"
+    strip-ansi "^5.2.0"
+    wrap-ansi "^5.1.0"
+
+clone-response@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
+  integrity sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=
+  dependencies:
+    mimic-response "^1.0.0"
+
+clone@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
+  integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
+
+code-excerpt@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/code-excerpt/-/code-excerpt-2.1.1.tgz#5fe3057bfbb71a5f300f659ef2cc0a47651ba77c"
+  integrity sha512-tJLhH3EpFm/1x7heIW0hemXJTUU5EWl2V0EIX558jp05Mt1U6DVryCgkp3l37cxqs+DNbNgxG43SkwJXpQ14Jw==
+  dependencies:
+    convert-to-spaces "^1.0.1"
+
+code-point-at@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+  integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
