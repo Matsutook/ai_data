@@ -130,4 +130,68 @@ export default props => {
         <Box>
           {Object.keys(colors).map((name, i) => {
             const value = colors[name]
- 
+            if (!Array.isArray(value)) return false
+            return (
+              <Box key={name} py={3}>
+                <Heading
+                  id={name}
+                  sx={{
+                    fontSize: 2,
+                  }}>
+                  {name}
+                </Heading>
+                <Grid width={[128, 192]}>
+                  {value.map((val, i) => (
+                    <Box key={val}>
+                      <Box
+                        sx={{
+                          p: 4,
+                          bg: val,
+                        }}
+                      />
+                      <Flex
+                        sx={{
+                          fontSize: 0,
+                        }}>
+                        <Text
+                          sx={{
+                            fontWeight: 'bold',
+                          }}>
+                          {name} {i}
+                        </Text>
+                        <Box mx='auto' />
+                        <Text>
+                          {val}
+                        </Text>
+                      </Flex>
+                    </Box>
+                  ))}
+                </Grid>
+              </Box>
+            )
+          })}
+        </Box>
+        <Box py={4}>
+          <Heading
+            sx={{
+              fontSize: 2,
+              mb: 3,
+            }}>
+            Download
+          </Heading>
+          <Button
+            as={GatsbyLink}
+            mr={2}
+            to='/json'
+            state={{ colors }}>
+            JSON
+          </Button>
+          <Button
+            as={GatsbyLink}
+            to='/css'
+            state={{ colors }}>
+            CSS
+          </Button>
+        </Box>
+        <Box as='footer' py={4}>
+          <Link href='https://github.com/jxnblk/palx' 
