@@ -194,4 +194,14 @@ export default props => {
           </Button>
         </Box>
         <Box as='footer' py={4}>
-          <Link href='https://github.com/jxnblk/palx' 
+          <Link href='https://github.com/jxnblk/palx' mr={2}>
+            GitHub
+          </Link>
+          <Link href='https://jxnblk.com'>
+            Made by Jxnblk
+          </Link>
+        </Box>
+      </Box>
+    </ThemeProvider>
+  )
+}
