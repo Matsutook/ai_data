@@ -56,4 +56,78 @@ const theme = {
 
 export default props => {
   const [color, setColor] = React.useState('#07c')
-  const [colo
+  const [colors, setColors] = React.useState(() => palx('#07c'))
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Box
+        sx={{
+          fontFamily: 'system-ui, sans-serif',
+          lineHeight: 1.5,
+          maxWidth: 1280,
+          mx: 'auto',
+          p: 3,
+          color: '#000',
+          bg: '#fff',
+        }}>
+        <Global
+          styles={{
+            body: {
+              margin: 0,
+            }
+          }}
+        />
+        <Box py={4}>
+          <Heading as='h1'
+            sx={{
+              fontSize: 3,
+            }}>
+            Palx: Automatic UI Color Palette Generator
+          </Heading>
+          <p>
+            Provide a single color value and Palx returns a full-spectrum color palette, well suited for UI design and data visualizations that work harmoniously with brand colors.
+          </p>
+        </Box>
+        <Box
+          as='form'
+          py={4}
+          onSubmit={e => {
+            e.preventDefault()
+            try {
+              const colors = palx(color)
+              setColors(colors)
+            } catch (e) {}
+          }}>
+          <Label htmlFor='base-color'>
+            Base Color
+          </Label>
+          <Flex>
+            <Box
+              px={5}
+              py={3}
+              mr={3}
+              sx={{
+                bg: color,
+              }}
+            />
+            <Input
+              id='base-color'
+              name='base-color'
+              value={color}
+              onChange={e => {
+                setColor(e.target.value)
+              }}
+              mr={3}
+            />
+            <Button
+              sx={{
+                flex: 'none',
+              }}>
+              Update
+            </Button>
+          </Flex>
+        </Box>
+        <Box>
+          {Object.keys(colors).map((name, i) => {
+            const value = colors[name]
+ 
