@@ -453,4 +453,29 @@
 
 "@babel/parser@^7.0.0", "@babel/parser@^7.4.3":
   version "7.6.4"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.4.tgz#cb9b36a7482110282d5cb6dd424ec9262b4
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.4.tgz#cb9b36a7482110282d5cb6dd424ec9262b473d81"
+  integrity sha512-D8RHPW5qd0Vbyo3qb+YjO5nvUVRTXFLQ/FsDxJU2Nqz4uB5EnUN0ZQSEYpvTIbRuttig1XbHWU5oMeQwQSAA+A==
+
+"@babel/parser@^7.12.7", "@babel/parser@^7.14.0", "@babel/parser@^7.15.5", "@babel/parser@^7.16.7", "@babel/parser@^7.16.8", "@babel/parser@^7.18.0", "@babel/parser@^7.6.0", "@babel/parser@^7.6.3", "@babel/parser@^7.6.4":
+  version "7.18.4"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.18.4.tgz#6774231779dd700e0af29f6ad8d479582d7ce5ef"
+  integrity sha512-FDge0dFazETFcxGw/EXzOkN8uJp0PC7Qbm+Pe9T+av2zlBpOgunFHkQPPn+eRuClU73JF+98D531UgayY89tow==
+
+"@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.17.12":
+  version "7.17.12"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.17.12.tgz#1dca338caaefca368639c9ffb095afbd4d420b1e"
+  integrity sha512-xCJQXl4EeQ3J9C4yOmpTrtVGmzpm2iSzyxbkZHw7UCnZBftHpF/hpII80uWVyVrc40ytIClHjgWGTG1g/yB+aw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.17.12"
+
+"@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.17.12":
+  version "7.17.12"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.17.12.tgz#0d498ec8f0374b1e2eb54b9cb2c4c78714c77753"
+  integrity sha512-/vt0hpIw0x4b6BLKUkwlvEoiGZYYLNZ96CzyHYPbtG2jZGz6LBe7/V+drYrc/d+ovrF9NBi0pmtvmNb/FsWtRQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.17.12"
+    "@babel/helper-skip-transparent-expression-wrappers" "^7.16.0"
+    "@babel/plugin-proposal-optional-chaining" "^7.17.12"
+
+"@babel/plugin-proposal-async-generator-functions@^7.17.12", "@babel/plugin-proposal-async-generator-functions@^7.2.0":
+  version "7.17.12
