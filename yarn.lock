@@ -844,4 +844,38 @@
     "@babel/helper-annotate-as-pure" "^7.0.0"
     "@babel/helper-define-map" "^7.5.5"
     "@babel/helper-function-name" "^7.1.0"
-    "@babel/helper-optim
+    "@babel/helper-optimise-call-expression" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-replace-supers" "^7.5.5"
+    "@babel/helper-split-export-declaration" "^7.4.4"
+    globals "^11.1.0"
+
+"@babel/plugin-transform-classes@^7.15.4", "@babel/plugin-transform-classes@^7.17.12":
+  version "7.18.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.18.4.tgz#51310b812a090b846c784e47087fa6457baef814"
+  integrity sha512-e42NSG2mlKWgxKUAD9EJJSkZxR67+wZqzNxLSpc51T8tRU5SLFHsPmgYR5yr7sdgX4u+iHA1C5VafJ6AyImV3A==
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.16.7"
+    "@babel/helper-environment-visitor" "^7.18.2"
+    "@babel/helper-function-name" "^7.17.9"
+    "@babel/helper-optimise-call-expression" "^7.16.7"
+    "@babel/helper-plugin-utils" "^7.17.12"
+    "@babel/helper-replace-supers" "^7.18.2"
+    "@babel/helper-split-export-declaration" "^7.16.7"
+    globals "^11.1.0"
+
+"@babel/plugin-transform-computed-properties@^7.0.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.2.0.tgz#83a7df6a658865b1c8f641d510c6f3af220216da"
+  integrity sha512-kP/drqTxY6Xt3NNpKiMomfgkNn4o7+vKxK2DDKcBG9sHj51vHqMBGy8wbDS/J4lMxnqs153/T3+DmCEAkC5cpA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-transform-computed-properties@^7.17.12":
+  version "7.17.12"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.17.12.tgz#bca616a83679698f3258e892ed422546e531387f"
+  integrity sha512-a7XINeplB5cQUWMg1E/GI1tFz3LfK021IjV1rj1ypE+R7jHm+pIHmHl25VNkZxtx9uuYp7ThGk8fur1HHG7PgQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.17.12"
+
+"@babel/plugin-transform-destruc
