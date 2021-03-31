@@ -878,4 +878,37 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.17.12"
 
-"@babel/plugin-transform-destruc
+"@babel/plugin-transform-destructuring@^7.0.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.6.0.tgz#44bbe08b57f4480094d57d9ffbcd96d309075ba6"
+  integrity sha512-2bGIS5P1v4+sWTCnKNDZDxbGvEqi0ijeqM/YqHtVGrvG2y0ySgnEEhXErvE9dA0bnIzY9bIzdFK0jFA46ASIIQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-transform-destructuring@^7.18.0":
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.18.0.tgz#dc4f92587e291b4daa78aa20cc2d7a63aa11e858"
+  integrity sha512-Mo69klS79z6KEfrLg/1WkmVnB8javh75HX4pi2btjvlIoasuxilEyjtsQW6XPrubNd7AQy0MMaNIaQE4e7+PQw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.17.12"
+
+"@babel/plugin-transform-dotall-regex@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.16.7.tgz#6b2d67686fab15fb6a7fd4bd895d5982cfc81241"
+  integrity sha512-Lyttaao2SjZF6Pf4vk1dVKv8YypMpomAbygW+mU5cYP3S5cWTfCJjG8xV6CFdzGFlfWK81IjL9viiTvpb6G7gQ==
+  dependencies:
+    "@babel/helper-create-regexp-features-plugin" "^7.16.7"
+    "@babel/helper-plugin-utils" "^7.16.7"
+
+"@babel/plugin-transform-dotall-regex@^7.4.4":
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.6.2.tgz#44abb948b88f0199a627024e1508acaf8dc9b2f9"
+  integrity sha512-KGKT9aqKV+9YMZSkowzYoYEiHqgaDhGmPNZlZxX6UeHC4z30nC1J9IrZuGqbYFB1jaIGdv91ujpze0exiVK8bA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-regex" "^7.4.4"
+    regexpu-core "^4.6.0"
+
+"@babel/plugin-transform-duplicate-keys@^7.17.12":
+  version "7.17.12"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.17.12.tgz#a09aa709a3310013f8e48e0e23bc7ac
