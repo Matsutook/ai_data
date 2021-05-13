@@ -1704,4 +1704,50 @@
   integrity sha512-w353lPpXlgsQT6dxfcHw3hQdodGnfSwsxofHVfROqrIBZIjH0kNiFHOt8rnewYkLGEa75bWDVaM1ofyXEaN+3w==
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.4.0"
-    "@graphql-tools/opt
+    "@graphql-tools/optimize" "^1.0.1"
+    "@graphql-tools/relay-operation-optimizer" "^6.3.7"
+    "@graphql-tools/utils" "^8.3.0"
+    auto-bind "~4.0.0"
+    change-case-all "1.0.14"
+    dependency-graph "^0.11.0"
+    graphql-tag "^2.11.0"
+    parse-filepath "^1.0.2"
+    tslib "~2.4.0"
+
+"@graphql-tools/batch-execute@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/batch-execute/-/batch-execute-7.1.2.tgz#35ba09a1e0f80f34f1ce111d23c40f039d4403a0"
+  integrity sha512-IuR2SB2MnC2ztA/XeTMTfWcA0Wy7ZH5u+nDkDNLAdX+AaSyDnsQS35sCmHqG0VOGTl7rzoyBWLCKGwSJplgtwg==
+  dependencies:
+    "@graphql-tools/utils" "^7.7.0"
+    dataloader "2.0.0"
+    tslib "~2.2.0"
+    value-or-promise "1.0.6"
+
+"@graphql-tools/code-file-loader@^7.2.14":
+  version "7.2.18"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/code-file-loader/-/code-file-loader-7.2.18.tgz#c6633aa5065c50bb667599b4ad7ae1a6c5c72531"
+  integrity sha512-zHJ2SPuWqK2/rlyxsb4maQo2locqNsZX3Dp5QoiXhUEsrf5vHkEHlp68ldcoFSzveBhXvIAdNrQVgVhzBQ3q7Q==
+  dependencies:
+    "@graphql-tools/graphql-tag-pluck" "7.2.10"
+    "@graphql-tools/utils" "8.6.13"
+    globby "^11.0.3"
+    tslib "^2.4.0"
+    unixify "^1.0.0"
+
+"@graphql-tools/delegate@^7.0.1", "@graphql-tools/delegate@^7.1.5":
+  version "7.1.5"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-7.1.5.tgz#0b027819b7047eff29bacbd5032e34a3d64bd093"
+  integrity sha512-bQu+hDd37e+FZ0CQGEEczmRSfQRnnXeUxI/0miDV+NV/zCbEdIJj5tYFNrKT03W6wgdqx8U06d8L23LxvGri/g==
+  dependencies:
+    "@ardatan/aggregate-error" "0.0.6"
+    "@graphql-tools/batch-execute" "^7.1.2"
+    "@graphql-tools/schema" "^7.1.5"
+    "@graphql-tools/utils" "^7.7.1"
+    dataloader "2.0.0"
+    tslib "~2.2.0"
+    value-or-promise "1.0.6"
+
+"@graphql-tools/graphql-file-loader@^6.0.0":
+  version "6.2.7"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/graphql-file-loader/-/graphql-fi
