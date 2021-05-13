@@ -1750,4 +1750,44 @@
 
 "@graphql-tools/graphql-file-loader@^6.0.0":
   version "6.2.7"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/graphql-file-loader/-/graphql-fi
+  resolved "https://registry.yarnpkg.com/@graphql-tools/graphql-file-loader/-/graphql-file-loader-6.2.7.tgz#d3720f2c4f4bb90eb2a03a7869a780c61945e143"
+  integrity sha512-5k2SNz0W87tDcymhEMZMkd6/vs6QawDyjQXWtqkuLTBF3vxjxPD1I4dwHoxgWPIjjANhXybvulD7E+St/7s9TQ==
+  dependencies:
+    "@graphql-tools/import" "^6.2.6"
+    "@graphql-tools/utils" "^7.0.0"
+    tslib "~2.1.0"
+
+"@graphql-tools/graphql-tag-pluck@7.2.10":
+  version "7.2.10"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/graphql-tag-pluck/-/graphql-tag-pluck-7.2.10.tgz#f9dfeac8a8369de6a70157388e6cc6d1d984825d"
+  integrity sha512-j2f0Wzqy69XerNlTTTpSF1weLZN2z8NRrqP0lW/J3bKK9IgOy5eNDzcUUGujcn+MvjkpmjRaD4VFuxN75S2ozQ==
+  dependencies:
+    "@babel/parser" "^7.16.8"
+    "@babel/traverse" "^7.16.8"
+    "@babel/types" "^7.16.8"
+    "@graphql-tools/utils" "8.6.13"
+    tslib "^2.4.0"
+
+"@graphql-tools/import@^6.2.6":
+  version "6.6.17"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/import/-/import-6.6.17.tgz#fb5b5a75b8bd81e9abfd22b04894babf7c0f6ff3"
+  integrity sha512-rnKT2ZaFM+IbSFE0iOGG5sqdaDDv/XHHH43VIpV4ozryKoK9re3qrhEgfDOHaW47zMLGKrHLPCC/QGf0IpJquw==
+  dependencies:
+    "@graphql-tools/utils" "8.6.13"
+    resolve-from "5.0.0"
+    tslib "^2.4.0"
+
+"@graphql-tools/json-file-loader@^6.0.0":
+  version "6.2.6"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/json-file-loader/-/json-file-loader-6.2.6.tgz#830482cfd3721a0799cbf2fe5b09959d9332739a"
+  integrity sha512-CnfwBSY5926zyb6fkDBHnlTblHnHI4hoBALFYXnrg0Ev4yWU8B04DZl/pBRUc459VNgO2x8/mxGIZj2hPJG1EA==
+  dependencies:
+    "@graphql-tools/utils" "^7.0.0"
+    tslib "~2.0.1"
+
+"@graphql-tools/load@^6.0.0":
+  version "6.2.8"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/load/-/load-6.2.8.tgz#16900fb6e75e1d075cad8f7ea439b334feb0b96a"
+  integrity sha512-JpbyXOXd8fJXdBh2ta0Q4w8ia6uK5FHzrTNmcvYBvflFuWly2LDTk2abbSl81zKkzswQMEd2UIYghXELRg8eTA==
+  dependencies:
+    "@graphql-too
