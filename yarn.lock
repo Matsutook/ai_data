@@ -2089,4 +2089,40 @@
 
 "@jimp/plugin-fisheye@^0.16.1":
   version "0.16.1"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-fisheye/-/pl
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-fisheye/-/plugin-fisheye-0.16.1.tgz#f625047b6cdbe1b83b89e9030fd025ab19cdb1a4"
+  integrity sha512-BWHnc5hVobviTyIRHhIy9VxI1ACf4CeSuCfURB6JZm87YuyvgQh5aX5UDKtOz/3haMHXBLP61ZBxlNpMD8CG4A==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@jimp/utils" "^0.16.1"
+
+"@jimp/plugin-flip@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-flip/-/plugin-flip-0.16.1.tgz#7a99ea22bde802641017ed0f2615870c144329bb"
+  integrity sha512-KdxTf0zErfZ8DyHkImDTnQBuHby+a5YFdoKI/G3GpBl3qxLBvC+PWkS2F/iN3H7wszP7/TKxTEvWL927pypT0w==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@jimp/utils" "^0.16.1"
+
+"@jimp/plugin-gaussian@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-gaussian/-/plugin-gaussian-0.16.1.tgz#0845e314085ccd52e34fad9a83949bc0d81a68e8"
+  integrity sha512-u9n4wjskh3N1mSqketbL6tVcLU2S5TEaFPR40K6TDv4phPLZALi1Of7reUmYpVm8mBDHt1I6kGhuCJiWvzfGyg==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@jimp/utils" "^0.16.1"
+
+"@jimp/plugin-invert@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-invert/-/plugin-invert-0.16.1.tgz#7e6f5a15707256f3778d06921675bbcf18545c97"
+  integrity sha512-2DKuyVXANH8WDpW9NG+PYFbehzJfweZszFYyxcaewaPLN0GxvxVLOGOPP1NuUTcHkOdMFbE0nHDuB7f+sYF/2w==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@jimp/utils" "^0.16.1"
+
+"@jimp/plugin-mask@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-mask/-/plugin-mask-0.16.1.tgz#e7f2460e05c3cda7af5e76f33ccb0579f66f90df"
+  integrity sha512-snfiqHlVuj4bSFS0v96vo2PpqCDMe4JB+O++sMo5jF5mvGcGL6AIeLo8cYqPNpdO6BZpBJ8MY5El0Veckhr39Q==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    
