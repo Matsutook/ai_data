@@ -2426,4 +2426,46 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.walk/-/fs.walk-1.2.4.tgz#011b9202a70a6366e436ca5c065844528ab04976"
   integrity sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ==
   dependencies:
-    "@n
+    "@nodelib/fs.scandir" "2.1.3"
+    fastq "^1.6.0"
+
+"@nodelib/fs.walk@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz#e95737e8bb6746ddedf69c556953494f196fe69a"
+  integrity sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==
+  dependencies:
+    "@nodelib/fs.scandir" "2.1.5"
+    fastq "^1.6.0"
+
+"@parcel/bundler-default@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/bundler-default/-/bundler-default-2.6.0.tgz#3b091d2f6ebdb333558fc25c1fb98e28b854ace3"
+  integrity sha512-AplEdGm/odV7yGmoeOnglxnY31WlNB5EqGLFGxkgs7uwDaTWoTX/9SWPG6xfvirhjDpms8sLSiVuBdFRCCLtNA==
+  dependencies:
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/hash" "2.6.0"
+    "@parcel/plugin" "2.6.0"
+    "@parcel/utils" "2.6.0"
+    nullthrows "^1.1.1"
+
+"@parcel/cache@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/cache/-/cache-2.6.0.tgz#19a5132e5715d7ab1df7cb7a5ae5e8c29003a7b1"
+  integrity sha512-4vbD5uSuf+kRnrFesKhpn0AKnOw8u2UlvCyrplYmp1g9bNAkIooC/nDGdmkb/9SviPEbni9PEanQEHDU2+slpA==
+  dependencies:
+    "@parcel/fs" "2.6.0"
+    "@parcel/logger" "2.6.0"
+    "@parcel/utils" "2.6.0"
+    lmdb "2.3.10"
+
+"@parcel/codeframe@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/codeframe/-/codeframe-2.6.0.tgz#1de477a8772191d5990348b6c75922c1350b835c"
+  integrity sha512-yXXxrO9yyedHKpTwC+Af0+vPmQm+A9xeEhkt4f0yVg1n4t4yUIxYlTedzbM8ygZEEBtkXU9jJ+PkgXbfMf0dqw==
+  dependencies:
+    chalk "^4.1.0"
+
+"@parcel/compressor-raw@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/compressor-raw/-/compressor-raw-2.6.0.tgz#d8b238db719f43807ebd96ec08270b3c937221e2"
+  integrity sha512-rtMU2mGl88bic6Xbq1u5L49bMK4s5185b0k7h3JRdS6/0rR+Xp4k/o9Wog
