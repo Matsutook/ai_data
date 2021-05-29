@@ -2468,4 +2468,54 @@
 "@parcel/compressor-raw@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@parcel/compressor-raw/-/compressor-raw-2.6.0.tgz#d8b238db719f43807ebd96ec08270b3c937221e2"
-  integrity sha512-rtMU2mGl88bic6Xbq1u5L49bMK4s5185b0k7h3JRdS6/0rR+Xp4k/o9Wog
+  integrity sha512-rtMU2mGl88bic6Xbq1u5L49bMK4s5185b0k7h3JRdS6/0rR+Xp4k/o9Wog+hHjK/s82z1eF9WmET779ZpIDIQQ==
+  dependencies:
+    "@parcel/plugin" "2.6.0"
+
+"@parcel/core@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/core/-/core-2.6.0.tgz#dad1f5f529ffb47df772c155ef09119d3294538c"
+  integrity sha512-8OOWbPuxpFydpwNyKoz6d3e3O4DmxNYmMw4DXwrPSj/jyg7oa+SDtMT0/VXEhujE0HYkQPCHt4npRajkSuf99A==
+  dependencies:
+    "@mischnic/json-sourcemap" "^0.1.0"
+    "@parcel/cache" "2.6.0"
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/events" "2.6.0"
+    "@parcel/fs" "2.6.0"
+    "@parcel/graph" "2.6.0"
+    "@parcel/hash" "2.6.0"
+    "@parcel/logger" "2.6.0"
+    "@parcel/package-manager" "2.6.0"
+    "@parcel/plugin" "2.6.0"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/types" "2.6.0"
+    "@parcel/utils" "2.6.0"
+    "@parcel/workers" "2.6.0"
+    abortcontroller-polyfill "^1.1.9"
+    base-x "^3.0.8"
+    browserslist "^4.6.6"
+    clone "^2.1.1"
+    dotenv "^7.0.0"
+    dotenv-expand "^5.1.0"
+    json5 "^2.2.0"
+    msgpackr "^1.5.4"
+    nullthrows "^1.1.1"
+    semver "^5.7.1"
+
+"@parcel/diagnostic@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/diagnostic/-/diagnostic-2.6.0.tgz#99570b28ed44d64d57a3c3521bcfa4f6f631b495"
+  integrity sha512-+p8gC2FKxSI2veD7SoaNlP572v4kw+nafCQEPDtJuzYYRqywYUGncch25dkpgNApB4W4cXVkZu3ZbtIpCAmjQQ==
+  dependencies:
+    "@mischnic/json-sourcemap" "^0.1.0"
+    nullthrows "^1.1.1"
+
+"@parcel/events@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.6.0.tgz#6066c8c7b320e12fd206877bd549825b7eea8c63"
+  integrity sha512-2WaKtBs4iYwS88j4zRdyTJTgh8iuY4E32FMmjzzbheqETs6I05gWuPReGukJYxk8vc0Ir7tbzp12oAfpgo0Y+g==
+
+"@parcel/fs-search@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/fs-search/-/fs-search-2.6.0.tgz#35c52da3186cab953cf6686304921a7ab0c81be8"
+  integrity 
