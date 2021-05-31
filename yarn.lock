@@ -2518,4 +2518,46 @@
 "@parcel/fs-search@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@parcel/fs-search/-/fs-search-2.6.0.tgz#35c52da3186cab953cf6686304921a7ab0c81be8"
-  integrity 
+  integrity sha512-1nXzM3H/cA4kzLKvDBvwmNisKCdRqlgkLXh+OR1Zu28Kn4W34KuJMcHWW8cC+WIuuKqDh5oo2WPsC5y65GXBKQ==
+  dependencies:
+    detect-libc "^1.0.3"
+
+"@parcel/fs@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/fs/-/fs-2.6.0.tgz#287a3cda558f16aae5c67ccbe33a17c1bbd75ceb"
+  integrity sha512-6vxtx5Zy6MvDvH1EPx9JxjKGF03bR7VE1dUf4HLeX2D8YmpL5hkHJnlRCFdcH08rzOVwaJLzg1QNtblWJXQ9CA==
+  dependencies:
+    "@parcel/fs-search" "2.6.0"
+    "@parcel/types" "2.6.0"
+    "@parcel/utils" "2.6.0"
+    "@parcel/watcher" "^2.0.0"
+    "@parcel/workers" "2.6.0"
+
+"@parcel/graph@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/graph/-/graph-2.6.0.tgz#04f9660333e314a51af38483efefd766a5841bb0"
+  integrity sha512-rxrAzWm6rwbCRPbu0Z+zwMscpG8omffODniVWPlX2G0jgQGpjKsutBQ6RMfFIcfaQ4MzL3pIQOTf8bkjQOPsbg==
+  dependencies:
+    "@parcel/utils" "2.6.0"
+    nullthrows "^1.1.1"
+
+"@parcel/hash@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/hash/-/hash-2.6.0.tgz#c41364425e08d7e0ae5dae8b49ebfec2094124fe"
+  integrity sha512-YugWqhLxqK80Lo++3B3Kr5UPCHOdS8iI2zJ1jkzUeH9v6WUzbwWOnmPf6lN2S5m1BrIFFJd8Jc+CbEXWi8zoJA==
+  dependencies:
+    detect-libc "^1.0.3"
+    xxhash-wasm "^0.4.2"
+
+"@parcel/logger@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.6.0.tgz#f7aa26368e39573a5362997bb215f4a987c799e4"
+  integrity sha512-J1/7kPfSGBvMKSZdi0WCNuN0fIeiWxifnDGn7W/K8KhD422YwFJA8N046ps8nkDOPIXf1osnIECNp4GIR9oSYw==
+  dependencies:
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/events" "2.6.0"
+
+"@parcel/markdown-ansi@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/markdown-ansi/-/markdown-ansi-2.6.0.tgz#69720735d27ca039e1e03f0277224ec5a99c0ef7"
+  integrity sha512-fyjkrJQQSfKTUFTTasdZ6WrAkDoQ2+DYDjj+
