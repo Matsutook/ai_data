@@ -2729,4 +2729,49 @@
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@parcel/transformer-react-refresh-wrap/-/transformer-react-refresh-wrap-2.6.0.tgz#8a3c2274549189c04440562ae4d3ca17ac4a861a"
   integrity sha512-G34orfvLDUTumuerqNmA8T8NUHk+R0jwUjbVPO7gpB6VCVQ5ocTABdE9vN9Uu/cUsHij40TUFwqK4R9TFEBIEQ==
-  depend
+  dependencies:
+    "@parcel/plugin" "2.6.0"
+    "@parcel/utils" "2.6.0"
+    react-refresh "^0.9.0"
+
+"@parcel/types@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.6.0.tgz#b9b7f93edaafcb77425e231a0b4662d3c8d61900"
+  integrity sha512-lAMYvOBfNEJMsPJ+plbB50305o0TwNrY1xX5RRIWBqwOa6bYmbW1ZljUk1tQvnkpIE4eAHQwnPR5Z2XWg18wGQ==
+  dependencies:
+    "@parcel/cache" "2.6.0"
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/fs" "2.6.0"
+    "@parcel/package-manager" "2.6.0"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/workers" "2.6.0"
+    utility-types "^3.10.0"
+
+"@parcel/utils@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/utils/-/utils-2.6.0.tgz#d2d42635ad5b398fa21b26940868e7ff30175c07"
+  integrity sha512-ElXz+QHtT1JQIucbQJBk7SzAGoOlBp4yodEQVvTKS7GA+hEGrSP/cmibl6qm29Rjtd0zgQsdd+2XmP3xvP2gQQ==
+  dependencies:
+    "@parcel/codeframe" "2.6.0"
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/hash" "2.6.0"
+    "@parcel/logger" "2.6.0"
+    "@parcel/markdown-ansi" "2.6.0"
+    "@parcel/source-map" "^2.0.0"
+    chalk "^4.1.0"
+
+"@parcel/watcher@^2.0.0":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher/-/watcher-2.0.5.tgz#f913a54e1601b0aac972803829b0eece48de215b"
+  integrity sha512-x0hUbjv891omnkcHD7ZOhiyyUqUUR6MNjq89JhEI3BxppeKWAm6NPQsqqRrAkCJBogdT/o/My21sXtTI9rJIsw==
+  dependencies:
+    node-addon-api "^3.2.1"
+    node-gyp-build "^4.3.0"
+
+"@parcel/workers@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/workers/-/workers-2.6.0.tgz#09a53d62425d26eb1ee288371348c4dedf0347c9"
+  integrity sha512-3tcI2LF5fd/WZtSnSjyWdDE+G+FitdNrRgSObzSp+axHKMAM23sO0z7KY8s2SYCF40msdYbFUW8eI6JlYNJoWQ==
+  dependencies:
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/logger
