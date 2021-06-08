@@ -2689,4 +2689,44 @@
 "@parcel/source-map@^2.0.0":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@parcel/source-map/-/source-map-2.0.5.tgz#7dabcea0890914c390b8cf32e208d3f667e1ff38"
-  integrity sha512-
+  integrity sha512-DRVlCFKLpqBSIbMxUoVlHgfiv12HTW/U7nnhzw52YgzDVXUX9OA41dXS1PU0pJ1si+D1k8msATUC+AoldN43mg==
+  dependencies:
+    detect-libc "^1.0.3"
+
+"@parcel/transformer-js@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-js/-/transformer-js-2.6.0.tgz#b9f297e391a7091aaf0432135cd7f6c86e76301b"
+  integrity sha512-4v2r3EVdMKowBziVBW9HZqvAv88HaeiezkWyMX4wAfplo9jBtWEp99KEQINzSEdbXROR81M9oJjlGF5+yoVr/w==
+  dependencies:
+    "@parcel/diagnostic" "2.6.0"
+    "@parcel/plugin" "2.6.0"
+    "@parcel/source-map" "^2.0.0"
+    "@parcel/utils" "2.6.0"
+    "@parcel/workers" "2.6.0"
+    "@swc/helpers" "^0.3.15"
+    browserslist "^4.6.6"
+    detect-libc "^1.0.3"
+    nullthrows "^1.1.1"
+    regenerator-runtime "^0.13.7"
+    semver "^5.7.1"
+
+"@parcel/transformer-json@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-json/-/transformer-json-2.6.0.tgz#c15fc774431bab4c7059b4013e0d1ca9b66fad5c"
+  integrity sha512-zb+TQAdHWdXijKcFhLe+5KN1O0IzXwW1gJhPr8DJEA3qhPaCsncsw5RCVjQlP3a7NXr1mMm1eMtO6bhIMqbXeA==
+  dependencies:
+    "@parcel/plugin" "2.6.0"
+    json5 "^2.2.0"
+
+"@parcel/transformer-raw@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-raw/-/transformer-raw-2.6.0.tgz#c0648e0f788bc71a26235788edc662f303f7c91b"
+  integrity sha512-QDirlWCS/qy0DQ3WvDIAnFP52n1TJW/uWH+4PGMNnX4/M3/2UchY8xp9CN0tx4NQ4g09S8o3gLlHvNxQqZxFrQ==
+  dependencies:
+    "@parcel/plugin" "2.6.0"
+
+"@parcel/transformer-react-refresh-wrap@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-react-refresh-wrap/-/transformer-react-refresh-wrap-2.6.0.tgz#8a3c2274549189c04440562ae4d3ca17ac4a861a"
+  integrity sha512-G34orfvLDUTumuerqNmA8T8NUHk+R0jwUjbVPO7gpB6VCVQ5ocTABdE9vN9Uu/cUsHij40TUFwqK4R9TFEBIEQ==
+  depend
