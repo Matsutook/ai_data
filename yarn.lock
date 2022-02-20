@@ -6961,4 +6961,50 @@ gatsby-page-utils@^2.16.0:
 gatsby-parcel-config@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-parcel-config/-/gatsby-parcel-config-0.7.0.tgz#bf26385d7f8a1a01ef7fce9395c45964083d0d05"
-  integrity sha512-M4syRbthB0qA6IwRwHz4kGB/zSrMUvkDGWTK3nmmdfRtX+U7JIT
+  integrity sha512-M4syRbthB0qA6IwRwHz4kGB/zSrMUvkDGWTK3nmmdfRtX+U7JITE2e1Le1IU54f1r/uaotLqH3T/e5j6tEb2sg==
+  dependencies:
+    "@gatsbyjs/parcel-namer-relative-to-cwd" "^1.1.0"
+    "@parcel/bundler-default" "2.6.0"
+    "@parcel/compressor-raw" "2.6.0"
+    "@parcel/namer-default" "2.6.0"
+    "@parcel/optimizer-terser" "2.6.0"
+    "@parcel/packager-js" "2.6.0"
+    "@parcel/packager-raw" "2.6.0"
+    "@parcel/reporter-dev-server" "2.6.0"
+    "@parcel/resolver-default" "2.6.0"
+    "@parcel/runtime-browser-hmr" "2.6.0"
+    "@parcel/runtime-js" "2.6.0"
+    "@parcel/runtime-react-refresh" "2.6.0"
+    "@parcel/runtime-service-worker" "2.6.0"
+    "@parcel/transformer-js" "2.6.0"
+    "@parcel/transformer-json" "2.6.0"
+    "@parcel/transformer-raw" "2.6.0"
+    "@parcel/transformer-react-refresh-wrap" "2.6.0"
+
+gatsby-plugin-page-creator@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.16.0.tgz#0baa8acf09806a1e8ef8e5eff481bb574dfd062a"
+  integrity sha512-NMEZVZipbwmQEGESgCsnvXqr35pEGTDkzLuGgiITC2/IlY66LZAJbqzT5Pfw1xY4v10ETWBzKbDCrVIijJb/Tw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@babel/traverse" "^7.15.4"
+    "@sindresorhus/slugify" "^1.1.2"
+    chokidar "^3.5.2"
+    fs-exists-cached "^1.0.0"
+    gatsby-core-utils "^3.16.0"
+    gatsby-page-utils "^2.16.0"
+    gatsby-plugin-utils "^3.10.0"
+    gatsby-telemetry "^3.16.0"
+    globby "^11.1.0"
+    lodash "^4.17.21"
+
+gatsby-plugin-react-helmet@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.16.0.tgz#a0c2c1acdda9e6ebed749a7e22fdf2d6f59950ef"
+  integrity sha512-+XrxxLnDuLupyRRNgXxWC3UlkhHMD5e98Sq+8yX92q2zOIr7MH7xax5WppcGb7L0leChMxR93v47jjVDtNAPGA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
+gatsby-plugin-typescript@^4.16.0:
+  version "4.16.0"
+  resolved "https://regi
