@@ -7007,4 +7007,43 @@ gatsby-plugin-react-helmet@^5.16.0:
 
 gatsby-plugin-typescript@^4.16.0:
   version "4.16.0"
-  resolved "https://regi
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.16.0.tgz#25e0e7271c8d38d263778b8805314d7bfa713b4e"
+  integrity sha512-3N9UYIQD+MZNZxeWuNAAO77ebH+CWH+rQxVW/ChEz6aEKjXeC/DRQecdlGSN03keHYsyQ1LSKIBItFYEKiNQ8A==
+  dependencies:
+    "@babel/core" "^7.15.5"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
+    "@babel/plugin-proposal-numeric-separator" "^7.14.5"
+    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
+    "@babel/preset-typescript" "^7.15.0"
+    "@babel/runtime" "^7.15.4"
+    babel-plugin-remove-graphql-queries "^4.16.0"
+
+gatsby-plugin-utils@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.10.0.tgz#d47bb1165bd6aafb3bd17820df97582dba93a69f"
+  integrity sha512-/K6frqNRwmSznUnjWD3Isk5wEj56zLrygfAdlBYVLd6XfAHK18sPJBaIi+Gpno4pNaSMuu10x+OxPmSIjE0X7g==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@gatsbyjs/potrace" "^2.2.0"
+    fs-extra "^10.1.0"
+    gatsby-core-utils "^3.16.0"
+    gatsby-sharp "^0.10.0"
+    graphql-compose "^9.0.7"
+    import-from "^4.0.0"
+    joi "^17.4.2"
+    mime "^3.0.0"
+    mini-svg-data-uri "^1.4.4"
+    svgo "^2.8.0"
+
+gatsby-react-router-scroll@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-5.16.0.tgz#7114bfa1e3460dc1b8edeed1951a840785eac238"
+  integrity sha512-85L2eZH3ck9eNhIMH09lThiiH85oaVE/0Vw9oCfsRkyfm7C0oW9HAUUgAAAgWHZBQ1Xw9wPUpIiP0XjKlk1U0w==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    prop-types "^15.8.1"
+
+gatsby-script@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-script/-/gatsby-script-1.1.0.tgz#d4f18404da727e026457ddd3ec713f26f48cb441"
+  integrity sha512-RsZQyaYBCqo1A9QNBOqheTLyn2+f/TlHFWmnVKpm5tEy5KppDNuW5yCH3u01tq4zwCGEoQyD
