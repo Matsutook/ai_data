@@ -7222,4 +7222,56 @@ gatsby@^4.16.0:
     raw-loader "^4.0.2"
     react-dev-utils "^12.0.1"
     react-refresh "^0.9.0"
-    redux "4
+    redux "4.1.2"
+    redux-thunk "^2.4.0"
+    resolve-from "^5.0.0"
+    semver "^7.3.7"
+    shallow-compare "^1.2.2"
+    signal-exit "^3.0.5"
+    slugify "^1.6.1"
+    socket.io "3.1.2"
+    socket.io-client "3.1.3"
+    source-map-support "^0.5.20"
+    st "^2.0.0"
+    stack-trace "^0.0.10"
+    string-similarity "^1.2.2"
+    strip-ansi "^6.0.1"
+    style-loader "^2.0.0"
+    terser-webpack-plugin "^5.2.4"
+    tmp "^0.2.1"
+    "true-case-path" "^2.2.1"
+    type-of "^2.0.1"
+    url-loader "^4.1.1"
+    uuid "^8.3.2"
+    webpack "^5.61.0"
+    webpack-dev-middleware "^4.3.0"
+    webpack-merge "^5.8.0"
+    webpack-stats-plugin "^1.0.3"
+    webpack-virtual-modules "^0.3.2"
+    xstate "^4.26.0"
+    yaml-loader "^0.6.0"
+  optionalDependencies:
+    gatsby-sharp "^0.10.0"
+
+gensync@^1.0.0-beta.1, gensync@^1.0.0-beta.2:
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
+  integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
+
+get-caller-file@^2.0.1:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
+  integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
+
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.1.2.tgz#336975123e05ad0b7ba41f152ee4aadbea6cf598"
+  integrity sha512-Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.3"
+
+get-port@^3.2.0:
+  version "3.2.0"
+  resolved
